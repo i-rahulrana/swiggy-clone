@@ -1,0 +1,31 @@
+{
+  "name": "swiggy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cred/neopop-web": "^1.0.0",
+    "axios": "^1.5.1",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.3",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-spinners": "^0.13.8",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  }
+}

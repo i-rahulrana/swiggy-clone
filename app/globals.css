@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@font-face {
+  font-family: "Acumin Pro Black";
+  src: url("/fonts/acumin-black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Acumin Pro Bold";
+  src: url("/fonts/acumin-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Acumin Pro Semibold";
+  src: url("/fonts/acumin-semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Acumin Pro Regular";
+  src: url("/fonts/acumin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("/fonts/proxima-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url("/fonts/proxima-semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("/fonts/proxima-extra-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Proxima Nova Black";
+  src: url("/fonts/proxima-black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("/fonts/space-mono.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Space Mono Bold";
+  src: url("/fonts/space-mono-bold.ttf") format("ttf");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-family: "Acumin Pro Regular";
+  /* color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+}
